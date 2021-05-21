@@ -8,7 +8,8 @@ interface Props {
 const World = (props: Props) => {
   const { name } = props;
 
-  console.log("hahaha...");
+  const a: any = {};
+  console.log("hahaha...", a?.b);
   return (
     <>
       <div className={styles.box}>{`World, ${name}`}</div>

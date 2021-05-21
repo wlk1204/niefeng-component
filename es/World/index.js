@@ -33,7 +33,8 @@ styleInject(css_248z);
 
 var World = function (props) {
     var name = props.name;
-    console.log("hahaha...");
+    var a = {};
+    console.log("hahaha...", a === null || a === void 0 ? void 0 : a.b);
     return (React.createElement(React.Fragment, null,
         React.createElement("div", { className: styles.box }, "World, " + name)));
 };
